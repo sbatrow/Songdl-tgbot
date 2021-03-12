@@ -81,11 +81,12 @@ async def song(client, message):
     #if args.startswith("/help"):
         #return ""    
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @sibatrow  🇱🇰</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @sibatrow 🇱🇰</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
-                                    
+                                    InlineKeyboardButton(
+                                        "Developer", url="https://t.me/sibatrow")
                                 ]]
                         ),
                parse_mode="html",
@@ -131,7 +132,8 @@ async def song(client, message):
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
-                                   
+                                    InlineKeyboardButton(
+                                        "Developer", url="https://t.me/sibatrow")
                                 ]]
                         ),
                parse_mode="html",
@@ -168,13 +170,14 @@ async def start(client, message):
        await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a Song Downloader Bot
-
 Made by @ImJanindu 🇱🇰
-
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
-                                      
+                                        InlineKeyboardButton(
+                                            "Help", callback_data="help"),
+                                        InlineKeyboardButton(
+                                            "maker", url="https://t.me/sibatrow")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -204,7 +207,6 @@ async def help(client, message):
         await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>Send a song name to download song
-
 ~ @Infinity_BOTs</b>""",
             reply_to_message_id=message.message_id
         )
@@ -226,7 +228,7 @@ async def button(Jebot, update):
 print(
     """
 Bot Started!
-
+https://t.me/sibatrow
 """
 )
 
