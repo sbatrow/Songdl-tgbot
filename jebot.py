@@ -175,9 +175,9 @@ Hit help button to find out more about how to use me</b>""",
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "Help", callback_data="https://t.me/sibatrow"),
                                         InlineKeyboardButton(
-                                            "maker", url="https://t.me/sibatrow")
+                                            "Developer", url="https://t.me/sibatrow")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
