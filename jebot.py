@@ -170,7 +170,7 @@ async def start(client, message):
        await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a Song Downloader Bot
-Made by @ImJanindu 🇱🇰
+Made by @sibatrow 🇱🇰
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
@@ -192,7 +192,7 @@ Hit help button to find out more about how to use me</b>""",
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help")
+                                            "Help", callback_data="no")
                                         
                                     ]]
                             ),        
