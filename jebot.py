@@ -81,7 +81,7 @@ async def song(client, message):
     #if args.startswith("/help"):
         #return ""    
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @sibatrow 🇱🇰</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by ⚡ ⚡ Sithum Batrow 🇱🇰⚡⚡ 🇱🇰</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
@@ -128,7 +128,7 @@ async def song(client, message):
         await message.reply("<b>Enter a song name❗\n\nExample: `/s guleba`</b>")
         return ""
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @sibatrow 🇱🇰</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by ⚡ ⚡ Sithum Batrow 🇱🇰⚡⚡ 🇱🇰</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
@@ -170,7 +170,7 @@ async def start(client, message):
        await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a Song Downloader Bot
-Made by @sibatrow 🇱🇰
+Made by ⚡ ⚡ Sithum Batrow 🇱🇰⚡⚡ 🇱🇰
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
